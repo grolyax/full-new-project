@@ -109,16 +109,18 @@
     color: white;
 }
 
+@media  screen and (max-width: 900px) {
+    .slide.active {
+        position: relative;
+        display: block;
+     }
+}
+
 @media screen and (max-width: 750px) {
 
     .expand__map {
         left: 30%;
     }
-    .slide.active {
-        position: relative;
-        display: block;
-     }
-     
 }
 
 @media screen and (max-width: 500px) {
