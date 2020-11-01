@@ -6,131 +6,165 @@
 
 .map_mill {
     position: relative;
-    background-image: url('../img/map_2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.4);
     width: 100%;
-    height: 300px;
     display: block;
 }
 
 .full__map {
     position: relative;
-    z-index: 2;
-    display: none;
-    top: -50%;
+    transition: height 300ms linear;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.4);
+    will-change: height;
+}
+
+.full__map.open__map {
+}
+
+.full__map.open__map > img {
+    transform: scale(1);
+    padding-left: 0;
+    padding-top: 0;
+    height: 470px;
+}
+
+.full__map > img {
+    transition: transform 800ms ease-in-out,
+        padding-top 800ms linear,
+        padding-left 800ms ease-in-out,
+        height 800ms linear;
+    transform: scale(1.9);
+    will-change: transform, padding-left;
+    display: block;
+    object-fit: cover;
+    height: 300px;
+    padding-top: 90px;
 }
 
 .map_mill a {
-    text-decoration: none;
+text-decoration: none;
 }
 
 .expand__map {
     position: absolute;
-    top: 260px;
+    bottom: -50px;
     left: 50%;
     transform: translate(-50%, -10%);
     z-index: 3;
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
 .expand__map:hover+div {
-    display: block;
+display: block;
 }
 
 .expand__map a p {
-    padding-left: 4px;
+padding-left: 4px;
+}
+
+.expand__map i {
+    transition: transform 300ms ease-in-out;
+}
+
+.expand__map i.arrow-up {
+    transform: rotate(180deg);
 }
 
 .zoom {
-    color: white;
-    position: absolute;
-    top: 70px;
-    left: 380px;
-    z-index: 1;
+color: white;
+position: absolute;
+top: 70px;
+left: 200px;
+z-index: 1;
+}
+
+.btn.expand__map {
+    cursor: pointer;
 }
 
 .zoom_map {
-    position: absolute;
-    left: 340px;
-    display: none;
+position: absolute;
+left: 340px;
+display: none;
 }
 .zoom:hover+div {
-    display: block;
+display: block;
 }
 
 .imgMill {
-    position: relative;
-    left: 48%;
-    bottom: -50px;
+position: relative;
+left: 48%;
+bottom: -50px;
 }
 
 .mills h1 {
-    text-align: center;
+text-align: center;
 }
 
 
 .slider {
-    width: 100%;
-    margin: 10px auto;
-    position: relative;
-    text-align: center;
-    top: 50px;
+width: 100%;
+margin: 10px auto;
+position: relative;
+text-align: center;
+top: 50px;
 }
 
 .slides {
-    position: relative;
+position: relative;
 }
 
 .slide {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: none;
-   
+width: 100%;
+height: 100%;
+position: absolute;
+display: none;
+
 }
 
 .slide.active {
-   display: block;
+display: block;
 }
 
 .buttons {
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    width: 100%;
-    top: 230px;
-    font-size: 3em;
-    font-weight: 200;
+display: flex;
+justify-content: space-around;
+position: absolute;
+width: 100%;
+top: 230px;
+font-size: 3em;
+font-weight: 200;
 }
 
 .buttons a {
-    text-decoration: none;
-    color: white;
+text-decoration: none;
+color: white;
 }
 
 @media  screen and (max-width: 900px) {
-    .slide.active {
-        position: relative;
-        display: block;
-     }
+.slide.active {
+    position: relative;
+    display: block;
+ }
 }
 
 @media screen and (max-width: 750px) {
 
-    .expand__map {
-        left: 30%;
-    }
+.expand__map {
+    left: 30%;
+}
 }
 
 @media screen and (max-width: 500px) {
-    .zoom_map {
-        width: 50px;
-        height: 50px;
-    }
-    .expand__map {
-        left: 40vw;
-    }
+.zoom_map {
+    width: 50px;
+    height: 50px;
+}
+.expand__map {
+    left: 40vw;
+}
 }
 
 

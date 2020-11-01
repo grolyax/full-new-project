@@ -10,6 +10,7 @@
 
 body {
     font-family: 'PT Serif';
+    overflow-x: hidden;
 }
 
 h1 {
@@ -21,7 +22,8 @@ h2 {
 }
 
 .container {
-    margin: 0 40px 0 40px;
+    margin: 0;
+    padding: 0 40px 0 40px;
     background-color: white;
     z-index: 1;
 }

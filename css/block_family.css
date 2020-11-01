@@ -16,6 +16,23 @@
     padding: 0 20px;
 }
 
+
+.open {
+    display: none;
+}
+
+.Hazanovich {
+    float: right;
+}
+
+#Jozef {
+        padding: 10px 20px 10px 25px;
+        float: right;
+}
+.Hazanovich a {
+    text-align: end;
+}
+
 @media screen and (max-width: 900px) {
     .card__brothers {
         width: 75vw;

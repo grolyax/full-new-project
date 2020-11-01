@@ -71,3 +71,20 @@ next.addEventListener("click", function(event) {
     slides[activeSlideIndex + 1].classList.add('active');
     }
 });
+
+var expandMapButton = document.getElementById('expand-map-button');
+var fullMap = document.getElementById('full-map')
+
+expandMapButton.addEventListener('click', function (event) {
+    var text = expandMapButton.childNodes[1];
+    var arrow = expandMapButton.childNodes[0];
+    if (fullMap.classList.contains('open__map')) {
+        fullMap.classList.remove('open__map');
+        arrow.classList.remove('arrow-up');
+        text.innerText = 'Развернуть';
+    } else {
+        fullMap.classList.add('open__map');
+        text.innerText = 'Свернуть';
+        arrow.classList.add('arrow-up')
+    }
+});
