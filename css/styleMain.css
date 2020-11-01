@@ -6,6 +6,7 @@
 @import "block_mill.css";
 @import "block_family.css";
 @import "block_brothers.css";
+@import "block_manya.css";
 
 
 body {
@@ -49,7 +50,7 @@ p {
 
 @media screen and (max-width: 500px) {
     .container {
-        margin: 40px 20px 0 20px;
+        margin-top: 40px;   
     }
 }
 

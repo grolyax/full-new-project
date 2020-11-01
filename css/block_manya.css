@@ -1,0 +1,63 @@
+.block__manya {
+    flex-direction: column;
+    background-color: rgb(248, 249, 250);
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+
+.block__manya h1 {
+    align-self: start;
+    padding-left: 50px;
+}
+
+.Shohat {
+    display: flex;
+    align-items: start;
+    justify-content:  space-around;
+    padding-left: 20px;
+    width: 95%;
+    margin: 20px;
+}
+
+.card__manya {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+}
+.foto_manya {
+    width: 200px;
+    border: 5px solid white;
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 500px) {
+    .Shohat {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    .card__manya {
+        margin-left: 0;
+        padding-left: 0;
+        width: 90%;
+    }
+    .foto_manya {
+        width: 300px;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    #Manya_1 {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .foto_manya {
+        width: 170px;
+    }
+    #Manya_1 {
+        width: 170px;
+    }
+}
