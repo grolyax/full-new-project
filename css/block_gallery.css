@@ -13,3 +13,12 @@
 .foto {
     padding: 0 20px;
 }
+
+@media screen and (max-width: 900px) {
+    .foto_row {
+        flex-wrap: wrap;
+    }
+    .foto {
+        padding: 20px;
+    }
+}
