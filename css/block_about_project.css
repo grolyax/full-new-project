@@ -9,6 +9,7 @@
 .card__project {
     display: block;
     float: left;
+    margin: 0;
 }
 
 .card__project img {
@@ -46,7 +47,11 @@
 
 b {
     color: #007545;
-    box-shadow:  1px 1px 1px 0 rgba(0, 0, 0, 0.5)
+    text-shadow:  2px 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+#direction_reseach {
+    font-size: 30px;
 }
 
 .mark {
