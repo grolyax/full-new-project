@@ -22,6 +22,9 @@ h1 {
 .card h1 {
     font-size: 40px;
 }
+.card h2 {
+    text-align: center;
+}
 
 .btn {
     font-family: 'Comfortaa';
@@ -34,6 +37,10 @@ h1 {
     background-color: #007545;
     padding: 10px;
     margin: 15px;
+}
+
+p {
+    padding: 0 20px;
 }
 
 

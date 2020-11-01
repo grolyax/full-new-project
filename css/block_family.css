@@ -1,5 +1,4 @@
 
-
 .block__family {
     background-color: rgb(248, 249, 250);
     flex-direction: column;
@@ -13,34 +12,8 @@
     text-align: center;
 }
 
-.imgMill {
-    position: relative;
-}
-
-.block__brothers {
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(248, 249, 250);
-    margin-top: 0;
-}
-
-.block__card {
-    margin: 20px 10px 50px 10px;
-}
-
-#about__brothers {
-    width: 100%;
-}
-
-.card__brothers {
-    align-items: center;
-    padding: 2px 0;
-    width: 28vw;
-    height: 500px;
-    margin: 0 15px;
-}
- p {
-    padding: 10px 20px;
+.block__family p {
+    padding: 0 20px;
 }
 
 @media screen and (max-width: 900px) {
