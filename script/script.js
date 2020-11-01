@@ -1,14 +1,9 @@
-//<h1 class="projectTitle">Проект: Открываем страницы истории</h1>
-//<h1 class="MainTitle">Гродненцы, стоявшие у истоков Израиля.</h1>
-//<h2>Семья Вильбушевич</h2>
 
 var readMore = document.getElementsByClassName("readMore")[0];
 
 
 readMore.addEventListener('click', function (event) {
     var paragraph = document.querySelector(".expand");
-
-  
 
     if (paragraph.style.display === '') {
         paragraph.style.display = 'block';
@@ -87,4 +82,23 @@ expandMapButton.addEventListener('click', function (event) {
         text.innerText = 'Свернуть';
         arrow.classList.add('arrow-up')
     }
+});
+
+var readAll = document.getElementsByClassName("readAll")[0];
+
+readAll.addEventListener('click', function (event) {
+    var paragraph = document.querySelector(".open");
+
+    if (paragraph.style.display === '') {
+        paragraph.style.display = 'block';
+
+        event.target.innerHTML = "Свернуть";
+
+    } else { 
+        paragraph.style.display = '';
+
+        event.target.innerHTML = "Читать дальше";
+   
+    }
+    
 });
