@@ -39,6 +39,10 @@ h1 {
     margin: 15px;
 }
 
+.btn:hover {
+    box-shadow:  2px 4px 6px 0 rgba(0, 0, 0, 0.4);;
+}
+
 p {
     padding: 0 20px;
 }
