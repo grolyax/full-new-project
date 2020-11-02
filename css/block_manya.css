@@ -2,7 +2,8 @@
     flex-direction: column;
     background-color: rgb(248, 249, 250);
     margin-top: 0;
-    padding-bottom: 50px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
 }
 
 .block__manya h1 {

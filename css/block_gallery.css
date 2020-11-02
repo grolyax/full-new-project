@@ -2,6 +2,7 @@
     flex-direction: column;
     align-items: center;
     background-color: white;
+    margin-top: 0;
 }
 
 .foto_row {
