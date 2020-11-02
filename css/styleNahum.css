@@ -4,3 +4,13 @@
 @import "header.css";
 @import "styleHeaderPages.css";
 @import "footer.css";
+
+img {
+    margin-top: 15px;
+}
+
+.Hajfa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

@@ -47,6 +47,27 @@ p {
     padding: 0 20px;
 }
 
+.text__right {
+    float: right;
+}
+
+.text__right img {
+    float: right;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.text__left {
+    float: left;
+}
+
+.text__left img {
+    float: left;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+
 
 @media screen and (max-width: 900px) {
     .block {
