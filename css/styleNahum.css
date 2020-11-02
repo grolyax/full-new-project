@@ -14,3 +14,7 @@ img {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.last_paragraph {
+    margin-bottom: 100px;
+}
