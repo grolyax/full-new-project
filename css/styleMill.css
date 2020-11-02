@@ -3,6 +3,7 @@
 @import "navbar.css";
 @import "header.css";
 @import "styleHeaderPages.css";
+@import "footer.css";
 
 span, #map_text {
     font-size: 12px;
