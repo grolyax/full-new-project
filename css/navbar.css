@@ -79,7 +79,7 @@
 }
 
   
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 900px) {
     .topnav__links {
         justify-content: flex-end ;
     }
