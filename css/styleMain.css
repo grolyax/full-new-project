@@ -45,6 +45,18 @@ p {
     transform: translateY(50px);
 }
 
+.mark:hover {
+    animation: call_reseach 0.7s linear 3;
+}
+
+
+
+@keyframes call_reseach {
+    0% { transform: translateY(-15px);}
+    50% { transform: translateY(-30px);}
+    100% { transform: translateY(-20px);}
+}
+
 
 @media screen and (max-width: 900px) {
     .block__mill {
