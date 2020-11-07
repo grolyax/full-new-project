@@ -1,8 +1,7 @@
 .block__estate {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 0 0 100px 0;
 }
-
 
 .yandex__map {
     box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.4);

@@ -81,6 +81,12 @@
     bottom: -50px;
 }
 
+
+.block__mill {
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 100px 0;
+}
+
 .mills h1 {
     text-align: center;
 }
