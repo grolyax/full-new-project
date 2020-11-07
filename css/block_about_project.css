@@ -4,7 +4,13 @@
     background-color: rgb(248, 249, 250);
     margin-top: 0;
     margin-bottom: 0;
+    transition: background-color 0.5s;
 }
+
+.block__about__project:hover {
+    background-color: rgb(241, 241, 241);
+}
+
 
 .card__project {
     display: block;

@@ -21,7 +21,7 @@ h1 {
 }
 
 .card:hover {
- transform: translateY(-20px) translateZ(30px) scale(1.02);
+ transform: translateY(-15px) translateZ(30px) scale(1.02);
 }
 
 .card h1 {

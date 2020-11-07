@@ -14,6 +14,10 @@
     flex-grow: 2;
     margin-top: 50px;
 }
+.estate {
+    margin-left: 20px;
+}
+
 .estate h1 {
     text-align: center;
     margin-top: 5px;

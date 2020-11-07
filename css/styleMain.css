@@ -49,7 +49,12 @@ p {
     animation: call_reseach 0.7s linear 3;
 }
 
-
+button {
+    border-radius: 50%;
+    border-color: rgba(0, 92, 54, 0.3);
+    background:  rgba(255, 255, 255, 0.3);
+    outline: none;
+}
 
 @keyframes call_reseach {
     0% { transform: translateY(-15px);}
