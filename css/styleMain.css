@@ -63,7 +63,7 @@ button {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .block__mill {
         flex-direction: column;
     }

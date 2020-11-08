@@ -1,7 +1,7 @@
 
 .header {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 60vh;
     background-image: url('../img/header-img.jpg');
     background-attachment: fixed;
@@ -14,8 +14,8 @@
     padding-top: 4%;
     transition: height .2s linear;
     z-index: -1;
-
 }
+
 .header h1 {
 font-family: 'Philosopher';
 }
@@ -24,7 +24,7 @@ font-family: 'Philosopher';
     position: fixed;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     z-index: -1;
 }
 
