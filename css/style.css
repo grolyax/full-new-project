@@ -55,7 +55,7 @@ h1 {
 
 .btn:hover {
     box-shadow:  2px 4px 2px 0 rgba(0, 0, 0, 0.4);
-    background: radial-gradient(ellipse,  #41dd9c,  #007545,  #004126);
+    background: radial-gradient(ellipse,  #007545,  #004126);
 }
 
 p {
