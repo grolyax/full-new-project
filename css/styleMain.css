@@ -45,23 +45,12 @@ p {
     transform: translateY(50px);
 }
 
-.mark:hover {
-    animation: call_reseach 0.7s linear 3;
-}
-
 button {
     border-radius: 50%;
     border-color: rgba(0, 92, 54, 0.3);
     background:  rgba(255, 255, 255, 0.3);
     outline: none;
 }
-
-@keyframes call_reseach {
-    0% { transform: translateY(-15px);}
-    50% { transform: translateY(-30px);}
-    100% { transform: translateY(-20px);}
-}
-
 
 @media screen and (max-width: 1000px) {
     .block__mill {
