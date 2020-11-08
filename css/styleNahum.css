@@ -5,7 +5,7 @@
 @import "styleHeaderPages.css";
 @import "footer.css";
 
-img {
+.content img {
     margin-top: 15px;
     margin-bottom: 15px;
     box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.4);
