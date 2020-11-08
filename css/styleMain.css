@@ -67,6 +67,10 @@ button {
     .block__mill {
         flex-direction: column;
     }
+
+    body {
+        overflow-x: hidden;
+    }
 }
 
 

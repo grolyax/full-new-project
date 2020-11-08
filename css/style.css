@@ -86,5 +86,8 @@ p {
     .block {
         flex-direction: column;
     }
+    body {
+        overflow-x: hidden;
+    }
 }
 
