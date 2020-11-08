@@ -63,13 +63,12 @@ p {
 }
 
 .text__right {
-    float: right;
-    
+    float: right; 
 }
 
 .text__right img {
     float: right;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 25px;
 }
 
@@ -79,11 +78,9 @@ p {
 
 .text__left img {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-left: 25px;
 }
-
-
 
 @media screen and (max-width: 900px) {
     .block {
