@@ -40,7 +40,13 @@
     margin: 0 20px;
     background-color: white;
     box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.4), -2px -2px 4px 0 rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s linear;
 }
+
+.card_reseach:hover {
+    transform: translateY(-15px) translateZ(30px) scale(1.02);
+}
+
 .card_reseach h2 {
     margin-top: 0;
     margin-bottom: 10px;
