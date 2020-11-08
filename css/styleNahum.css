@@ -20,3 +20,16 @@ img {
 .last_paragraph {
     margin-bottom: 100px;
 }
+
+.block__image {
+    position: relative;
+}
+
+.title__image {
+    position: absolute;
+    font-size: 10px;
+    left: 0;
+    bottom: 20px;
+    background-color: rgb(248, 239, 222);
+    padding: 1px 3px;
+}
