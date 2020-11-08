@@ -68,9 +68,6 @@ button {
         flex-direction: column;
     }
 
-    body {
-        overflow-x: hidden;
-    }
 }
 
 
