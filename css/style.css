@@ -11,6 +11,15 @@ h1 {
 }
 
 
+.image {
+    transition: transform 0.3s linear; 
+}
+
+.image:hover {
+    transform: scale(1.05);
+   }
+
+
 .card {
     display: flex;
     flex-direction: column;
