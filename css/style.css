@@ -23,6 +23,7 @@ h1 {
 .card {
     display: flex;
     flex-direction: column;
+    background-color: white;
     padding: 20px;
     margin-left: 10px;
     box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.4);
