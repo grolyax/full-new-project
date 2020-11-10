@@ -13,7 +13,7 @@ readMore.addEventListener('click', function (event) {
     } else { 
         paragraph.style.display = '';
 
-        event.target.innerHTML = "Читать дальше";
+        event.target.innerHTML = "Развернуть";
    
     }
     
@@ -97,7 +97,7 @@ readAll.addEventListener('click', function (event) {
     } else { 
         paragraph.style.display = '';
 
-        event.target.innerHTML = "Читать дальше";
+        event.target.innerHTML = "Развернуть";
    
     }
     

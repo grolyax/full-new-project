@@ -39,6 +39,10 @@
     text-align: end;
 }
 
+.readAll {
+    width: 180px;
+}
+
 @media screen and (max-width: 900px) {
     .card__brothers {
         width: 75vw;

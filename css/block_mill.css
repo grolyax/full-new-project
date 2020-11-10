@@ -70,7 +70,7 @@
     transform: rotate(180deg);
 }
 
-.btn.expand__map {
+.btn.expand__map, .fas {
     cursor: pointer;
 }
 

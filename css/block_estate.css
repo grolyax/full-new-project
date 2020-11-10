@@ -25,6 +25,9 @@
 .expand {
     display: none;
 }
+.readMore {
+    width: 180px;
+}
 
 @media screen and (max-width: 900px) {
 .block__estate {
