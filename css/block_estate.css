@@ -23,11 +23,25 @@
 }
 
 .expand {
+    transition: display 300ms ease-in-out;
+}
+
+.expand {
     display: none;
 }
+
 .readMore {
     width: 180px;
 }
+
+.readMore  i {
+    transition: transform 300ms ease-in-out;
+}
+
+.readMore  i.arrow-up {
+    transform: rotate(180deg);
+}
+
 
 @media screen and (max-width: 900px) {
 .block__estate {

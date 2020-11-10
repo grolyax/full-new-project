@@ -22,6 +22,10 @@
     padding: 0 20px;
 }
 
+.open {
+    transition: display 300ms ease-in-out;
+}
+
 
 .open {
     display: none;
@@ -42,6 +46,15 @@
 .readAll {
     width: 180px;
 }
+
+.readAll  i {
+    transition: transform 300ms ease-in-out;
+}
+
+.readAll  i.arrow-up {
+    transform: rotate(180deg);
+}
+
 
 @media screen and (max-width: 900px) {
     .card__brothers {

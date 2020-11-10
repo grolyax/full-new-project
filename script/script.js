@@ -4,17 +4,16 @@ var readMore = document.getElementsByClassName("readMore")[0];
 
 readMore.addEventListener('click', function (event) {
     var paragraph = document.querySelector(".expand");
-
+    var arrow = readMore.childNodes[0];
     if (paragraph.style.display === '') {
         paragraph.style.display = 'block';
-
+        arrow.classList.add('arrow-up');
         event.target.innerHTML = "Свернуть";
 
     } else { 
         paragraph.style.display = '';
-
+        arrow.classList.remove('arrow-up');
         event.target.innerHTML = "Развернуть";
-   
     }
     
 });
@@ -80,7 +79,7 @@ expandMapButton.addEventListener('click', function (event) {
     } else {
         fullMap.classList.add('open__map');
         text.innerText = 'Свернуть';
-        arrow.classList.add('arrow-up')
+        arrow.classList.add('arrow-up');
     }
 });
 
@@ -88,15 +87,15 @@ var readAll = document.getElementsByClassName("readAll")[0];
 
 readAll.addEventListener('click', function (event) {
     var paragraph = document.querySelector(".open");
-
+    var arrow = readAll.childNodes[0];
     if (paragraph.style.display === '') {
         paragraph.style.display = 'block';
-
+        arrow.classList.add('arrow-up');
         event.target.innerHTML = "Свернуть";
 
     } else { 
         paragraph.style.display = '';
-
+        arrow.classList.remove('arrow-up');
         event.target.innerHTML = "Развернуть";
    
     }
