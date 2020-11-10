@@ -1,7 +1,6 @@
 
 var readMore = document.getElementsByClassName("readMore")[0];
 
-
 readMore.addEventListener('click', function (event) {
     var paragraph = document.querySelector(".expand");
     var arrow = readMore.childNodes[0];
@@ -97,7 +96,6 @@ readAll.addEventListener('click', function (event) {
         paragraph.style.display = '';
         arrow.classList.remove('arrow-up');
         event.target.innerHTML = "Развернуть";
-   
     }
     
 });

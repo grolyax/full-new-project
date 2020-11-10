@@ -26,7 +26,6 @@
     transition: display 300ms ease-in-out;
 }
 
-
 .open {
     display: none;
 }
