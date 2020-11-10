@@ -62,7 +62,14 @@ p {
     float: right; 
 }
 
-.text__right img {
+.text__right > img {
+    float: right;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+
+.text__right .img__text {
     float: right;
     margin-left: 20px;
     margin-right: 25px;
