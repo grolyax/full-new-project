@@ -45,13 +45,6 @@ p {
     transform: translateY(50px);
 }
 
-button {
-    border-radius: 50%;
-    border-color: rgba(0, 92, 54, 0.3);
-    background:  rgba(255, 255, 255, 0.3);
-    outline: none;
-}
-
 @media screen and (max-width: 1000px) {
     .block__mill {
         flex-direction: column;

@@ -70,7 +70,7 @@
     transform: rotate(180deg);
 }
 
-.btn.expand__map, .fas {
+.btn.expand__map, button {
     cursor: pointer;
 }
 
@@ -115,7 +115,13 @@
 
 .slide.active {
     display: block;
+
 }
+
+.slide>img {
+    border: 2px groove white;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.4);
+} 
 
 .buttons {
     display: flex;
@@ -127,10 +133,22 @@
     font-weight: 200;
 }
 
-.buttons a {
-    text-decoration: none;
-    color: white;
+#prev, #next {
+    width: 30px;
+    height: 30px;
 }
+
+#prev>i, #next>i {
+    color: white;
+} 
+
+button {
+    border-radius: 50%;
+    border-color: rgba(0, 92, 54, 0.3);
+    background:  rgb(0, 117, 69);
+    outline: none;
+}
+
 
 @media  screen and (max-width: 900px) {
     .slide.active {
