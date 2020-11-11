@@ -84,6 +84,12 @@ p {
     margin-right: 20px;
     margin-left: 25px;
 }
+ 
+.link_other {
+    font-size: 12px;
+    font-style: italic;
+    color: #007545;
+}
 
 @media screen and (max-width: 900px) {
     .block {
