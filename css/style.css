@@ -62,33 +62,39 @@ p {
     float: right; 
 }
 
-.text__right > img {
+.text__right>.img__text {
     float: right;
-    margin-left: 20px;
-    margin-right: 25px;
-}
-
-
-.text__right .img__text {
-    float: right;
-    margin-left: 20px;
-    margin-right: 25px;
+    padding: 0 20px;
+    display: block;
 }
 
 .text__left {
     float: left;
 }
 
-.text__left img {
+.text__left>.img__text {
     float: left;
-    margin-right: 20px;
-    margin-left: 25px;
+    padding: 0 20px;
+    display: block;
 }
- 
+
 .link_other {
     font-size: 12px;
     font-style: italic;
     color: #007545;
+}
+
+.text__right .img__photo {
+    display: block;
+    float: right;
+    padding: 5px 20px;
+}
+
+.title__photo {
+    display: block;
+    width: 250px;
+    font-size: 12px;
+    font-style: italic;
 }
 
 @media screen and (max-width: 900px) {
