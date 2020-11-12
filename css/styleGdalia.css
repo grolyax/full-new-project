@@ -4,3 +4,45 @@
 @import "header.css";
 @import "styleHeaderPages.css";
 @import "footer.css";
+
+body {
+    overflow-x: hidden;
+}
+
+.content img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 5%;
+}
+
+.photo__panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.last_paragraph {
+    margin-bottom: 100px;
+}
+
+.block__image {
+    position: relative;
+}
+
+.title__image {
+    position: absolute;
+    font-size: 10px;
+    left: 0;
+    bottom: 20px;
+    background-color: rgb(248, 239, 222);
+    padding: 1px 3px;
+}
+
+.small__photo {
+    width: 150px;
+}
+.pct {
+    padding-bottom: 15px;
+    background-color: rgb(248, 239, 222);
+}
