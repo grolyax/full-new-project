@@ -13,13 +13,17 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.4);
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
 .photo__panel {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.factory {
+    padding: 20px;
 }
 
 .last_paragraph {
