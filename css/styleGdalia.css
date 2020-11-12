@@ -50,3 +50,12 @@ body {
     padding-bottom: 15px;
     background-color: rgb(248, 239, 222);
 }
+
+
+.gap__top {
+    padding-top: 15px;
+}
+
+.gap__bottom {
+    padding-bottom: 15px;
+}

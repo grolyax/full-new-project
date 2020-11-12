@@ -9,8 +9,12 @@ body {
     overflow-x: hidden;
 }
 
-.gap {
+.gap__top {
     padding-top: 15px;
+}
+
+.gap__bottom {
+    padding-bottom: 15px;
 }
 
 .content img {
