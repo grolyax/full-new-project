@@ -30,16 +30,13 @@
     display: none;
 }
 
-.Hazanovich {
+.Jozef {
     float: right;
 }
 
-#Jozef {
+.Franya_Jozef {
     padding: 10px 20px 10px 25px;
     float: right;
-}
-.Hazanovich a {
-    text-align: end;
 }
 
 .readAll {
