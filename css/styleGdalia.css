@@ -43,6 +43,14 @@ body {
     padding: 1px 3px;
 }
 
+.title__photo__gdalia {
+    display: block;
+    width: 350px;
+    font-size: 12px;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
 .small__photo {
     width: 150px;
 }
