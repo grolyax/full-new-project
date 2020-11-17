@@ -34,10 +34,6 @@ body {
     justify-content: space-around;
 }
 
-.last_paragraph {
-    margin-bottom: 100px;
-}
-
 .block__image {
     position: relative;
 }

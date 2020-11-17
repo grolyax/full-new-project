@@ -115,6 +115,10 @@ p {
 }
 
 
+.last_paragraph {
+    margin-bottom: 50px;
+}
+
 .content__content .story p {
     text-align: center;
     font-size: 14px;
