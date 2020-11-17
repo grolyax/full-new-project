@@ -97,6 +97,15 @@ p {
     font-style: italic;
     padding-bottom: 5px;
 }
+
+.title__photo__small {
+    display: block;
+    width: 155px;
+    font-size: 12px;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
 .belkind_house {
     width: 450px;
 }
@@ -112,7 +121,6 @@ p {
 }
 
 #Cherchill {
-    
     border-radius: 50%;
 }
 
