@@ -43,7 +43,6 @@ font-family: 'Philosopher';
     display: inline-block;
 }
 .projectTitle {
-   width: 45%;
    font-weight: 100;
    font-style: italic;
    color: rgba(51, 51, 51, 0.7)

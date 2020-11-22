@@ -134,3 +134,9 @@ p {
     }
 }
 
+@media screen and (max-width: 500px) {
+    .text__right img, .text__left img {
+        padding: 0 5px;
+    }
+}
+
