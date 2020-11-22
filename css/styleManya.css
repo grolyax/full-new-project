@@ -4,3 +4,12 @@
 @import "header.css";
 @import "styleHeaderPages.css";
 @import "footer.css";
+
+
+body {
+    overflow-x: hidden;
+}
+
+.content__content {
+    background-color: white;
+}
